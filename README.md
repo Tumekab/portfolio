@@ -5,6 +5,6 @@ Languages I have used on this project are;
 - HTML5
 - Vanilla CSS
 - Vanilla JS
-- And a little bit of React 🤏
+- And a little bit of React 🤏🏻
 
 

@@ -1,0 +1,20 @@
+/* navlinks */
+.navlinks li {
+    display: inline-block;
+    padding: 1rem;
+    border: solid 0.2rem var(--cream);
+    margin: 1rem;
+    height: 5rem;
+}
+
+.navlinks a{
+    width: auto;
+    padding: 3rem;
+    margin: 5rem;
+}
+
+.navlinks li a:hover{
+    background-color: var(--cream);
+    color: var(--black);
+    border-radius: 5%;
+} 

@@ -2,28 +2,12 @@ body {
     background-color: var(--black);
 }
 
-/* navlinks */
-.navlinks li {
-    display: inline-block;
-    padding: 1rem;
-    border: solid 0.2rem var(--cream);
-    margin: 1rem;
-}
 
-.navlinks a{
-    width: auto;
-    padding: 3rem;
-    margin: 5rem;
-}
 
-.navlinks li a:hover{
-    background-color: var(--cream);
-    color: var(--black);
-    
-}
 
 section{
-    width: 1090px;
+    width: 950px;
+    height: 1000px;
     border: solid 0.2rem var(--cream);
     margin: 1rem;
 }
@@ -47,6 +31,7 @@ footer {
     margin: 1rem;
 }
 
+/* little square at the bottom of aside content */
 .smiley{
     width: 400px;
     height: 400px;

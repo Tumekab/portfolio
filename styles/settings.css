@@ -2,18 +2,12 @@ body {
     background-color: var(--black);
 }
 
-
-
-
+/*  out lining all the borders for the content */
 section{
     width: 950px;
     height: 1000px;
     border: solid 0.2rem var(--cream);
     margin: 1rem;
-}
-
-h2 {
-    font-size: 3rem;
 }
 
 aside{

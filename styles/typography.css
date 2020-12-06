@@ -12,4 +12,18 @@ body {
 .navlinks a {
     color: var(--cream);
     text-decoration: none;
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* font size for nav made the contact link move down just an fyi incase you forget how it became to be */
+
+/* projects page content type */
+.projects p {
+    text-transform: uppercase;
+}
+
+/* section type */
+h2 {
+    font-size: 3rem;
 }

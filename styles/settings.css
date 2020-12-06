@@ -6,7 +6,7 @@ body {
 .navlinks li {
     display: inline-block;
     padding: 1rem;
-    border: solid 0.2rem #C3BABA;
+    border: solid 0.2rem var(--cream);
     margin: 1rem;
 }
 
@@ -17,14 +17,14 @@ body {
 }
 
 .navlinks li a:hover{
-    background-color: #C3BABA;
-    color: #232323;
+    background-color: var(--cream);
+    color: var(--black);
     
 }
 
 section{
     width: 1090px;
-    border: solid 0.2rem #C3BABA;
+    border: solid 0.2rem var(--cream);
     margin: 1rem;
 }
 
@@ -35,7 +35,7 @@ h2 {
 aside{
     width: 400px;
     height: 700px;
-    border: solid 0.2rem #C3BABA;
+    border: solid 0.2rem var(--cream);
     margin: 1rem;
     float: right;
 }
@@ -43,13 +43,13 @@ aside{
 footer {
     width: 950px;
     height: 200px;
-    border: solid 0.2rem #C3BABA;
+    border: solid 0.2rem var(--cream);
     margin: 1rem;
 }
 
 .smiley{
     width: 400px;
     height: 400px;
-    border: solid 0.2rem #C3BABA;
+    border: solid 0.2rem var(--cream);
     margin: 1rem;
 }

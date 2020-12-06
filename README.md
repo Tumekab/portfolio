@@ -5,6 +5,9 @@ Languages I have used on this project are;
 - HTML5
 - Vanilla CSS
 - Vanilla JS
+<<<<<<< HEAD
 
+=======
+>>>>>>> baa0c4001a75af47d49860c5d3613839dc06b3ae
 
 

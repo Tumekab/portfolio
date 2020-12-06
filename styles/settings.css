@@ -1,0 +1,55 @@
+body {
+    background-color: var(--black);
+}
+
+/* navlinks */
+.navlinks li {
+    display: inline-block;
+    padding: 1rem;
+    border: solid 0.2rem #C3BABA;
+    margin: 1rem;
+}
+
+.navlinks a{
+    width: auto;
+    padding: 3rem;
+    margin: 5rem;
+}
+
+.navlinks li a:hover{
+    background-color: #C3BABA;
+    color: #232323;
+    
+}
+
+section{
+    width: 1090px;
+    border: solid 0.2rem #C3BABA;
+    margin: 1rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+aside{
+    width: 400px;
+    height: 700px;
+    border: solid 0.2rem #C3BABA;
+    margin: 1rem;
+    float: right;
+}
+
+footer {
+    width: 950px;
+    height: 200px;
+    border: solid 0.2rem #C3BABA;
+    margin: 1rem;
+}
+
+.smiley{
+    width: 400px;
+    height: 400px;
+    border: solid 0.2rem #C3BABA;
+    margin: 1rem;
+}

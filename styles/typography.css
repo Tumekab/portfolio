@@ -1,0 +1,15 @@
+@font-face {
+    src: url(../assets/fonts/cityburn.ttf );
+    font-family: 'Cityburn', sans-serif;
+}
+
+body {
+    font-family: 'Cityburn';
+    color: var(--cream);
+}
+
+/* nav bar */
+.navlinks a {
+    color: var(--cream);
+    text-decoration: none;
+}

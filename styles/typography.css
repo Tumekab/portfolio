@@ -35,9 +35,18 @@ h2 {
     justify-content: center;
     margin: auto;
     margin-bottom: 3rem;
+    padding: 1rem;
 }
 
 .top-text{
     margin: auto;
     width: 30rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px){
+    .top-text{
+        margin: auto;
+        width: 20rem;
+    }
 }

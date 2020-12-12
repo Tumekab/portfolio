@@ -7,6 +7,9 @@ body {
     font-family: 'Cityburn';
     color: var(--cream);
 }
+h1{
+    font-size: 3rem;
+}
 
 /* nav bar */
 .navlinks a {
@@ -25,5 +28,16 @@ body {
 
 /* section type */
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
+    border: solid 0.2rem var(--cream);
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.top-text{
+    margin: auto;
+    width: 30rem;
 }

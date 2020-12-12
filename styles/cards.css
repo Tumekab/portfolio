@@ -1,0 +1,50 @@
+/* card styling and animation */
+
+.card{
+    border: solid 0.5rem var(--cream);
+    margin: auto;
+    background-color: var(--cream);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 2%;
+}
+
+.card p  {
+    color: var(--black);
+}
+.card-title{
+    color: var(--black);
+    font-size: 1.5rem;
+}
+.card-subtitle{
+    color: var(--black);
+}
+.card-link{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'cardOne .' '. cardTwo' 'cardThree .';
+    grid-gap: 1rem;
+  }
+
+  .card-one{
+    grid-area: cardOne;
+  }
+  .card-two{
+    grid-area: cardTwo;
+  }
+  .card-three{
+    grid-area: cardThree;
+  }
+
+  @media screen and (max-width: 768px){
+    .grid-container {
+        display: grid;
+        grid-template-areas: 'cardOne' 'cardTwo' 'cardThree';
+        grid-gap: 1rem;
+      }
+  }

@@ -1,0 +1,34 @@
+.contact-grid {
+    display: grid;
+    grid-template-areas: 'email cv' 'github linked';
+    grid-gap: 1rem;
+  }
+
+.email-icon{
+    display: flex;
+    justify-content: center;
+    grid-area: email;
+}
+.github-icon{
+    display: flex;
+    justify-content: center;
+    grid-area: github;
+}
+.linked-icon{
+    display: flex;
+    justify-content: center;
+    grid-area: linked;
+}
+.cv-icon{
+    display: flex;
+    justify-content: center;
+    grid-area: cv;
+}
+
+/* @media screen and (max-width: 768px){
+    .grid-container {
+        display: grid;
+        grid-template-areas: 'email' 'cv' 'github' 'linked';
+        grid-gap: 1rem;
+      }
+  } */

@@ -6,4 +6,10 @@ body {
     
 }
 
-/*  out lining all the borders for the content */
+.main-container{
+    margin: auto;
+}
+
+section{
+    padding: 5%;
+}

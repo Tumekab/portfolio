@@ -1,34 +1,9 @@
 body {
     background-color: var(--black);
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    /* ("https://www.transparenttextures.com/patterns/old-wall.png"); */
+    /* ("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png"); */
+    
 }
 
 /*  out lining all the borders for the content */
-section{
-    width: 950px;
-    height: 1000px;
-    border: solid 0.2rem var(--cream);
-    margin: 1rem;
-}
-
-aside{
-    width: 400px;
-    height: 700px;
-    border: solid 0.2rem var(--cream);
-    margin: 1rem;
-    float: right;
-}
-
-footer {
-    width: 950px;
-    height: 200px;
-    border: solid 0.2rem var(--cream);
-    margin: 1rem;
-}
-
-/* little square at the bottom of aside content */
-.smiley{
-    width: 400px;
-    height: 400px;
-    border: solid 0.2rem var(--cream);
-    margin: 1rem;
-}

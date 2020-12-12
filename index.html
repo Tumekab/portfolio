@@ -6,38 +6,76 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name=description content=>
         <link rel=stylesheet href='./styles/main.css'>
+        <script src="./javascript/burgerMenu.js"></script>
+
         <title>Home</title>
     </head>
 <body>
-    
     <div> 
         <header>
-         <nav class="navlinks">
-             <ul>
-                <li><a href="index.html">tumeka burston</a></li>
-                <li><a href="projects.html">projects</a></li>
-                <li><a href="contact.html">contact</a></li>     
-            </ul>
-         </nav>
+            <nav>
+                <div class="hamburger">
+                   <div class="line"></div>
+                   <div class="line"></div> 
+                   <div class="line"></div>  
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#">projects</a></li>
+                    <li><a href="#">get in touch</a></li>     
+                </ul>
+            </nav>
         </header>
     </div>
     <section class="main-container">
         <h2>main content here</h2>
-        <p>this will be my about me/home page</p>
+        <p>A web developer based in Bristol, UK. 
+            As a junior in the industry Tumeka posses a keen interest in designing websites, generating better user experience and comprehensible code minded. 
+            Tumeka works mostly in HTML, CSS, JavaScript, PHP, and has experience with using React, Redux and Laravel.</p>
     </section>
 
-    <aside>
-        <h2>stay safe & create</h2> 
-        <div class="smiley">
-            <p>image goes here</p>
-        </div>
-    </aside>
+    <section>
+        <h2>projects</h2> 
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Project Name </h5>
+              <h6 class="card-subtitle mb-2 text-muted">html / css / js</h6>
+              <p class="card-text">blahblahblahb decription of project and the purpose of project, how many were involved etc</p>
+              <a href="#" class="card-link"><img src="assets/icons/icons8-link.svg"></a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Project Name </h5>
+              <h6 class="card-subtitle mb-2 text-muted">html / css / js</h6>
+              <p class="card-text">blahblahblahb decription of project and the purpose of project, how many were involved etc</p>
+              <a href="#" class="card-link"><img src="assets/icons/icons8-link.svg"></a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Project Name </h5>
+              <h6 class="card-subtitle mb-2 text-muted">html / css / js</h6>
+              <p class="card-text">blahblahblahb decription of project and the purpose of project, how many were involved etc</p>
+              <a href="#" class="card-link"><img src="assets/icons/icons8-link.svg"></a>
+            </div>
+          </div>    
+    </section>
 
-    <footer>
+    
+
+
+    <a name="footer"></a>
+    <section>
         <div>
-            <a href="https://github.com/Tumekab"><img src="assets/icons/icons8-github.svg" alt="GitHub social icon for profile"/></a>
-            <a href="https://www.linkedin.com/in/tumeka-burston/"><img src="assets/icons/icons8-linkedin.svg" alt="Linkedin social icon for profile"/></a>
+            <a class="email-icon" href="/"><img src="assets/icons/icons8-new-post.svg" alt="Email icon"/></a><p  class="email-txt">tumekaburston@gmail.com</p>
+            <a class="github-icon" href="https://github.com/Tumekab"><img src="assets/icons/icons8-github.svg" alt="GitHub social icon for profile"/></a><p>check out my code</p>
+            <a class="linked-icon" href="https://www.linkedin.com/in/tumeka-burston/"><img src="assets/icons/icons8-linkedin.svg" alt="Linkedin social icon for profile"/></a><p>see what im up to</p>
+            <a class="cv-icon" href="/assets/Tumeka_Burston_cv.pdf" download="TumekaBurstonCV"><img src="assets/icons/icons8-cv.svg"/></a><p>download cv</p>
         </div>
+    </section>
+    <footer>
+        <p>flowers, female symbol and copyright here</p>
     </footer>
 </body>
 </html>

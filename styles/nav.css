@@ -42,7 +42,6 @@
   height: 1.5rem;
   cursor: pointer;
   z-index: 1;
-
 }
 
 .menu-btn-lines,
@@ -53,13 +52,11 @@
   background-color: var(--cream);
   transition: all 0.5s ease-in-out;
 }
-
 .menu-btn-lines::before,
 .menu-btn-lines::after{
   content: "";
   position: absolute;
 }
-
 .menu-btn-lines::before{
   transform: translateY(-0.5rem);
 }
@@ -82,7 +79,7 @@
   background-color: var(--black);
 }
 
-/*  media queries for burger menu and navigation for mobile devices */
+/*  media queries for burger menu and navigation for mobile devices portrait */
 @media screen and (max-width: 768px) {
   .menu-btn {
     display: flex;

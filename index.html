@@ -7,7 +7,7 @@
         <title>Tumeka Burston || Junior Web Developer.</title>
         <meta name="description" content="This is the personal website of Tumeka Burston. Any opinions are mine and not anybody else's." />
         <meta name="theme-color">
-        <link rel = "icon" href = "./assets/favicon/favicon.ico">
+        <link rel="icon" href="./assets/favicon/favicon.ico">
         
         <!-- google stuff  -->
         <meta property="og:locale" content="en_GB" />
@@ -23,20 +23,18 @@
     </head>
 <body>
     <div> 
-        <header>
-            <nav>
-                <h1>tumeka burston</h1>
-                <div class="hamburger sticky-nav">
-                   <div class="line"></div>
-                   <div class="line"></div> 
-                   <div class="line"></div>  
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="#projects">projects</a></li>
-                    <li><a href="#footer">get in touch</a></li>     
+        <header class="header">
+            <h1>tumeka burston</h1>
+            <div class="menu-btn">
+                <div class="menu-btn-lines"></div>
+            </div>
+            
+                <ul class="menu-items">
+                    <li class="menu-item"><a href="index.html">home</a></li>
+                    <li class="menu-item"><a href="#projects">projects</a></li>
+                    <li class="menu-item"><a href="#footer">get in touch</a></li>     
                 </ul>
-            </nav>
+            
         </header>
     </div>
     <section class="main-container">
@@ -44,7 +42,8 @@
         <div>
             <p class="top-text">A full-stack web developer based in Bristol, UK. <br>
                 As a junior in the industry Tumeka posses a keen interest in designing websites, generating better user experience and writing comprehensible code. 
-                Tumeka works mostly in HTML, CSS, JavaScript and PHP, whilst using libraries and frameworks such as React, Redux and Laravel.</p>
+                Tumeka works mostly in HTML, CSS, JavaScript and PHP, whilst using libraries and frameworks such as React, Redux and Laravel. <br>
+                Tumeka has recently graduated from DevelopMe_ in Bristol, a 12 week intensive coding bootcamp.</p>
         </div>
     </section>
 
@@ -79,17 +78,21 @@
         </div>  
     </section>
 
-    
-
-
+    <!-- footer section -->
     <a name="footer"></a>
-    <section>
+    <section class="wrapper">
         <h2>contact</h2>
-        <div class="contact-grid">
-            <a href="/"><img class="email-icon" src="assets/icons/icons8-new-post.svg" alt="Email icon"/></a><p  class="email-txt">tumekaburston@gmail.com</p>
-            <a href="https://github.com/Tumekab"><img class="github-icon" src="assets/icons/icons8-github.svg" alt="GitHub social icon for profile"/></a><p class="git-txt">check out my code</p>
-            <a href="https://www.linkedin.com/in/tumeka-burston/"><img class="linked-icon" src="assets/icons/icons8-linkedin.svg" alt="Linkedin social icon for profile"/></a><p class="linked-txt">see what im up to</p>
-            <a class="cv-icon" href="/assets/Tumeka_Burston_cv.pdf" download="TumekaBurstonCV"><img class="cv-icon" src="assets/icons/icons8-cv.svg"/></a><p class="cv-txt">download cv</p>
+        <div >
+            <div class="contact-grid txt-grid">
+                <a title="Email" href="mailto: tumekaburston@gmail.com"><img class="email-icon" src="assets/icons/icons8-new-post.svg" alt="Email icon"/></a>
+                <a title="GitHub" href="https://github.com/Tumekab" target="_blank"><img class="github-icon" src="assets/icons/icons8-github.svg" alt="GitHub social icon for profile"/></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/tumeka-burston/" target="_blank"><img class="linked-icon" src="assets/icons/icons8-linkedin.svg" alt="Linkedin social icon for profile"/></a>
+                <a title="DownloadCV" class="cv-icon" href="/assets/Tumeka_Burston_cv.pdf" download="TumekaBurstonCV"><img class="cv-icon" src="assets/icons/icons8-cv.svg"/></a>
+                <p>get in touch</p>
+                <p>check out my code</p>
+                <p>see what im up to</p>
+                <p>download cv</p>
+            </div>
         </div>
     </section>
     <footer>

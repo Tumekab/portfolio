@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--black);
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");

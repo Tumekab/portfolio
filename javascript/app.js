@@ -1,35 +1,22 @@
-// window.onscroll = function() {myFunction()};
+const menuBtn = document.querySelector(".menu-btn");
+const menuItems = document.querySelector(".menu-items");
+const menuItem = document.querySelectorAll(".menu-item");
 
-// // Get the navbar
-// let navbar = document.getElementById("sticky-nav");
-
-// // Get the offset position of the navbar
-// let sticky = navbar.offsetTop;
-
-// // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-// function myFunction() {
-//   if (window.pageYOffset >= sticky) {
-//     navbar.classList.add("sticky")
-//   } else {
-//     navbar.classList.remove("sticky");
-//   }
-// }
-
-
-
-
-// burger function
-const hamburger = document.querySelector(".hamburger");
-const navLinks = document.querySelector(".nav-links");
-const links = document.querySelectorAll(".nav-links li");
-
-hamburger.addEventListener("click", () => {
-  navLinks.classList.toggle("open");
-  links.forEach(link => {
-    link.classList.toggle("fade");
-  });
+// main toggle for nav menu
+menuBtn.addEventListener("click", () => {
+  toggle();
 });
 
-// sticky burger menu function
+//toggle on item, click if open
+menuItem.forEach((item) => {
+  item.addEventListener("click", () => {
+    if(menuBtn.classList.contains("open")) {
+      toggle();
+    };
+  })
+});
 
-// When the user scrolls the page, execute myFunction
+function toggle(){
+  menuBtn.classList.toggle("open");
+  menuItems.classList.toggle("open");
+}

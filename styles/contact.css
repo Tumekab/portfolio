@@ -1,4 +1,46 @@
-.contact-grid {
+.wrapper{
+  display: grid;
+  grid-auto-columns: auto;
+  justify-content: center;
+   
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+.contact-grid a{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* 
+
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.contact .contact-grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+    justify-items: center;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+} */
+
+
+
+/* .contact-grid {
     display: grid;
     grid-template-areas: 'email cv' 'github linked';
     grid-gap: 1rem;
@@ -23,12 +65,12 @@
     display: flex;
     justify-content: center;
     grid-area: cv;
-}
+} */
 
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .grid-container {
         display: grid;
-        grid-template-areas: 'email' 'cv' 'github' 'linked';
+        grid-template-columns: repeat(1 1fr);
         grid-gap: 1rem;
       }
-  } */
+  }

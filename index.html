@@ -25,29 +25,30 @@
         <header>
             <nav>
                 <h1>tumeka burston</h1>
-                <div class="hamburger">
+                <div class="hamburger sticky-nav">
                    <div class="line"></div>
                    <div class="line"></div> 
                    <div class="line"></div>  
                 </div>
                 <ul class="nav-links">
                     <li><a href="index.html">home</a></li>
-                    <li><a href="#">projects</a></li>
-                    <li><a href="#">get in touch</a></li>     
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#footer">get in touch</a></li>     
                 </ul>
             </nav>
         </header>
     </div>
     <section class="main-container">
-        <h2>main content here</h2>
+        <img class="smiley-icon" src="./assets/icons/smiley.svg" />
         <div>
-            <p class="top-text">A web developer based in Bristol, UK. 
-                As a junior in the industry Tumeka posses a keen interest in designing websites, generating better user experience and comprehensible code minded. 
-                Tumeka works mostly in HTML, CSS, JavaScript, PHP, and has experience with using React, Redux and Laravel.</p>
+            <p class="top-text">A full-stack web developer based in Bristol, UK. <br>
+                As a junior in the industry Tumeka posses a keen interest in designing websites, generating better user experience and writing comprehensible code. 
+                Tumeka works mostly in HTML, CSS, JavaScript and PHP, whilst using libraries and frameworks such as React, Redux and Laravel.</p>
         </div>
     </section>
 
     <section>
+        <a name="projects"></a>
         <h2>projects</h2> 
         <div class="grid-container">
             <div class="card card-one" style="width: 18rem;">
@@ -84,17 +85,19 @@
     <section>
         <h2>contact</h2>
         <div class="contact-grid">
-            <a class="email-icon" href="/"><img src="assets/icons/icons8-new-post.svg" alt="Email icon"/></a><p  class="email-txt">tumekaburston@gmail.com</p>
-            <a class="github-icon" href="https://github.com/Tumekab"><img src="assets/icons/icons8-github.svg" alt="GitHub social icon for profile"/></a><p class="git-txt">check out my code</p>
-            <a class="linked-icon" href="https://www.linkedin.com/in/tumeka-burston/"><img src="assets/icons/icons8-linkedin.svg" alt="Linkedin social icon for profile"/></a><p class="linked-txt">see what im up to</p>
-            <a class="cv-icon" href="/assets/Tumeka_Burston_cv.pdf" download="TumekaBurstonCV"><img src="assets/icons/icons8-cv.svg"/></a><p class="cv-txt">download cv</p>
+            <a href="/"><img class="email-icon" src="assets/icons/icons8-new-post.svg" alt="Email icon"/></a><p  class="email-txt">tumekaburston@gmail.com</p>
+            <a href="https://github.com/Tumekab"><img class="github-icon" src="assets/icons/icons8-github.svg" alt="GitHub social icon for profile"/></a><p class="git-txt">check out my code</p>
+            <a href="https://www.linkedin.com/in/tumeka-burston/"><img class="linked-icon" src="assets/icons/icons8-linkedin.svg" alt="Linkedin social icon for profile"/></a><p class="linked-txt">see what im up to</p>
+            <a class="cv-icon" href="/assets/Tumeka_Burston_cv.pdf" download="TumekaBurstonCV"><img class="cv-icon" src="assets/icons/icons8-cv.svg"/></a><p class="cv-txt">download cv</p>
         </div>
     </section>
     <footer>
-        <p>flowers, female symbol and copyright here</p>
+        <img class="flowers" src="./assets/images/flowers-bigger.png" />
+        <img src="./assets/icons/icons8-female.svg"/>
+        <p>&copy tumekaburston 2020</p>
     </footer>
 
     <!-- scipt -->
-    <script src="./javascript/burgerMenu.js"></script>
+    <script src="./javascript/app.js"></script>
 </body>
 </html>

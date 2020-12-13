@@ -21,6 +21,10 @@ nav {
 /* hamburger mobile menu */
 @media screen and (max-width: 768px){
 
+    .nav-links li a {
+        color: var(--black);
+        text-decoration: none;
+    }
     .line{
         width: 30px;
         height: 3px;
@@ -43,7 +47,7 @@ nav {
     .nav-links{
         position: fixed;
         background-color: var(--cream);
-        color: var(--black);
+        background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
         height: 100vh;
         width: 100%;
         flex-direction: column;

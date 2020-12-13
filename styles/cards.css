@@ -4,11 +4,15 @@
     border: solid 0.5rem var(--cream);
     margin: auto;
     background-color: var(--cream);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
     border-radius: 2%;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 }
+
+.card:hover{
+    transform: scale(1.10) translateZ(0);
+  }
 
 .card p  {
     color: var(--black);

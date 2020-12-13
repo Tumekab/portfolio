@@ -1,0 +1,10 @@
+.smiley-icon{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+}
+
+.flowers{
+    margin-bottom: 1rem;
+}

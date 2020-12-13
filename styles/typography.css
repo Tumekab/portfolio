@@ -1,14 +1,27 @@
-@font-face {
+/* title and sub headings font */
+@font-face{
     src: url(../assets/fonts/cityburn.ttf );
     font-family: 'Cityburn', sans-serif;
 }
+@font-face {
+    src: url(../assets/fonts/Copystruct-Normal.ttf );
+    font-family: 'Copystruct', sans-serif;
+}
 
 body {
-    font-family: 'Cityburn';
+    font-family: 'Copystruct';
     color: var(--cream);
 }
 h1{
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: 'cityburn';
+}
+
+.card{
+    line-height: 1.6;
+}
+.card-title{
+    font-family: 'cityburn';
 }
 
 /* nav bar */
@@ -17,9 +30,10 @@ h1{
     text-decoration: none;
     text-align: center;
     font-size: 3rem;
+    font-family: 'Cityburn';
 }
 
-/* font size for nav made the contact link move down just an fyi incase you forget how it became to be */
+
 
 /* projects page content type */
 .projects p {
@@ -29,6 +43,7 @@ h1{
 /* section type */
 h2 {
     font-size: 2rem;
+    font-family: 'cityburn';
     border: solid 0.2rem var(--cream);
     width: 18rem;
     display: flex;
@@ -41,7 +56,8 @@ h2 {
 .top-text{
     margin: auto;
     width: 30rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 @media screen and (max-width: 500px){

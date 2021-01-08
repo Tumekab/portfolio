@@ -1,0 +1,91 @@
+/*Start global*/
+
+@font-face{
+    src: url(../assets/fonts/cityburn.ttf);
+    font-family: 'cityburn', 'Courier New', Courier, monospace;
+}
+@font-face{
+    src: url(../assets/fonts/Copystruct-Normal.ttf);
+    font-family: 'Copystruct-Normal', 'Courier New', Courier, monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #C3BABA;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #232323;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); no-repeat center fixed;
+    font-family: 'copy';
+}
+
+section {
+    padding: 6rem 0;
+}
+
+a{
+    text-decoration: none;
+    color: #C3BABA;
+}
+
+p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #C3BABA;
+    font-family: 'Copystruct-Normal';
+}
+
+img{
+    width: 100%;
+}
+
+/*End global*/
+
+
+/*Start reusable*/
+
+.container {
+    width: 90%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-heading {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 10rem;
+}
+
+.section-heading h1 {
+    font-size: 3.5rem;
+    color: #C3BABA;
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
+    font-family: 'cityburn';
+}
+
+.section-heading h6 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-family: 'Copystruct-Normal';
+}
+
+.has-margin-right {
+    margin-right: 5rem;
+}
+/*End reusable*/

@@ -18,120 +18,178 @@
         <meta property="og:url" content="https://tumekaburston.com/" />
         <meta property="og:site_name" content="Tumeka Burston" />
 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel=stylesheet href='./styles/main.css'>
     </head>
 <body>
-    <header>
-        <div class="menuToggle">
-            <div class="bar half start"></div>
-            <div class="bar"></div>
-            <div class="bar half end"></div>
-        </div>
-        <nav class="topNav">
-            <ul class="navList">
-                <li>
-                    <a href='index.html' class="navLink">Home</a>
-                </li>
-                <li>
-                    <a href='#about' class="navLink">About</a>
-                </li>
-                <li>
-                    <a href='#skills' class="navLink">Skills</a>
-                </li>
-                <li>
-                    <a href='#projects' class="navLink">Projects</a>
-                </li>
-                <li>
-                    <a href='#contacts' class="navLink">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="landingText">
-            <img class="smileyIcon" src="./assets/icons/smiley.svg" />
-            <h1>tumeka burston</h1>
-            <h6>Junior Web Developer</h6>
-        </div>
-    </header>
-    <!-- <a name="home"></a>
-        <header class="header">
-            <h1>tumeka burston</h1>
-            <div class="menu-btn">
-                <div class="menu-btn-lines"></div>
+
+        <header>
+            <div class="menu-toggler">
+                <div class="bar half start"></div>
+                <div class="bar"></div>
+                <div class="bar half end"></div>
             </div>
-                <ul class="menu-items">
-                    <li class="menu-item"><a href="#home">home</a></li>
-                    <li class="menu-item"><a href="#projects">projects</a></li>
-                    <li class="menu-item"><a href="#footer">get in touch</a></li>     
+            <nav class="top-nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="#about" class="nav-link">About</a>
+                        <a href="#skills" class="nav-link">skills</a>
+                        <a href="#projects" class="nav-link">projects</a>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
                 </ul>
-        </header> -->
+            </nav>
+            <div class="landing-text">
+                <h1>Tumeka Burston</h1>
+                <h6>Junior Web Developer</h6>
+            </div>
+        </header>
     
-        <!-- main paragraph about me -->
-    <section class="main-container">
-        <img class="smiley-icon" src="./assets/icons/smiley.svg" />
-        <div>
-            <p class="top-text">A full-stack web developer based in Bristol, UK. <br>
-                As a junior in the industry Tumeka posses a keen interest in designing websites, generating better user experience and writing comprehensible code. 
-                Tumeka works mostly in HTML, CSS, JavaScript and PHP, whilst using libraries and frameworks such as React, Redux and Laravel. <br>
-                Tumeka has recently graduated from DevelopMe_ in Bristol, a 12 week intensive coding bootcamp.</p>
-        </div>
-    </section>
-
-    <!-- projects section -->
-    <section>
-        <a name="projects"></a>
-        <h2>projects</h2> 
-        <div class="grid-container">
-            <div class="card card-one" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Project Name </h5>
-                    <h6 class="card-subtitle mb-2 text-muted">html / css / js</h6>
-                    <p class="card-text">blahblahblahb decription of project and the purpose of project, how many were involved etc</p>
-                    <a href="#" class="card-link"><img src="assets/icons/icons8-link-black.svg"></a>
+        <!-- about -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="profile-img">
+                    <img src="images/profile.jpeg" alt="">
+                </div>
+                <div class="about-details">
+                    <div class="about-heading">
+                        <h1>About</h1>
+                        <h6>Myself</h6>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="social-media">
+                        <ul class="nav-list">
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <i class="fab fa-github-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <i class="fas fa-file-pdf"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+    
+        <!-- skills -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Skills</h1>
+                    <h6>What I can do</h6>
+                </div>
+                <div class="my-skills">
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h1>Web Design</h1>
+                        <p>description Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, beatae!</p>
+                    </div>
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h1>Languages</h1>
+                        <p>description Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, beatae!</p>
+                    </div>
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h1>Tools</h1>
+                        <p>description Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, beatae!</p>
+                    </div>
                 </div>
             </div>
-            <div class="card card-two" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Project Name </h5>
-                    <h6 class="card-subtitle mb-2 text-muted">html / css / js</h6>
-                    <p class="card-text">blahblahblahb decription of project and the purpose of project, how many were involved etc</p>
-                    <a href="#" class="card-link"><img src="assets/icons/icons8-link-black.svg"></a>
+        </section>
+    
+        <!-- projects -->
+    
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Projects</h1>
+                    <h6>View my recent work</h6>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right">
+                        <img src="images/portitem1.jpeg" alt="">
+                    </div>
+                    <div class="portfolio-description">
+                        <h6>Web Development</h6>
+                        <h1>Blog Website</h1>
+                        <p>description</p>
+                        <a href="#" class="cta">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right">
+                        <h6>Web Development</h6>
+                        <h1>Blog Website</h1>
+                        <p>description</p>
+                        <a href="#" class="cta">View Details</a>
+                    </div>
+                    <div class="portfolio-img ">
+                        <img src="images/portitem2.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right">
+                        <img src="images/portitem3.jpeg" alt="">
+                    </div>
+                    <div class="portfolio-description">
+                        <h6>Web Development</h6>
+                        <h1>Blog Website</h1>
+                        <p>description</p>
+                        <a href="#" class="cta">View Details</a>
+                    </div>
                 </div>
             </div>
-            <div class="card card-three" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Project Name </h5>
-                    <h6 class="card-subtitle mb-2 text-muted">html / css / js</h6>
-                    <p class="card-text">blahblahblahb decription of project and the purpose of project, how many were involved etc</p>
-                    <a href="#" class="card-link"><img src="assets/icons/icons8-link-black.svg"></a>
+        </section>
+    
+        <!-- contact  -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Contact</h1>
+                    <h6>Get in touch</h6>
                 </div>
-            </div>  
-        </div>  
-    </section>
-
-    <!-- footer section -->
-    <a name="footer"></a>
-    <section class="wrapper">
-        <h2>contact</h2>
-        <div >
-            <div class="contact-grid txt-grid">
-                <a title="Email" href="mailto: tumekaburston@gmail.com"><img class="email-icon" src="assets/icons/icons8-new-post.svg" alt="Email icon"/></a>
-                <a title="GitHub" href="https://github.com/Tumekab" target="_blank"><img class="github-icon" src="assets/icons/icons8-github.svg" alt="GitHub social icon for profile"/></a>
-                <a title="LinkedIn" href="https://www.linkedin.com/in/tumeka-burston/" target="_blank"><img class="linked-icon" src="assets/icons/icons8-linkedin.svg" alt="Linkedin social icon for profile"/></a>
-                <a title="DownloadCV" class="cv-icon" href="/assets/Tumeka_Burston_cv.pdf" download="TumekaBurstonCV"><img class="cv-icon" src="assets/icons/icons8-cv.svg"/></a>
-                <p>get in touch</p>
-                <p>check out my code</p>
-                <p>see what im up to</p>
-                <p>download cv</p>
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    <label for="subject">Your Message:</label>
+                    <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                    <input type="submit" value="submit">
+                </form>
             </div>
-        </div>
-    </section>
-    <footer>
-        <img class="flowers" src="./assets/images/flowers-bigger.png" />
-        <img src="./assets/icons/icons8-female.svg"/>
-        <p>&copy tumekaburston 2020</p>
-    </footer>
-
-    <!-- script -->
-    <script src="./javascript/app.js"></script>
+        </section>
+    
+        <footer class="copyright">
+            <div class="up" id="up">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+            <p>&copy; 2021 Tumeka Burston</p>
+        </footer>
+    
+    
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="main.js"></script>
 </body>
 </html>

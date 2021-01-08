@@ -19,6 +19,10 @@
     animation: pulse 2s infinite;
     cursor: pointer;
 }
+
+.up:hover{
+    background-color: #00aca3;
+}
 .up i {
     color: #313131;
     font-size: 2rem;

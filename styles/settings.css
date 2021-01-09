@@ -1,13 +1,6 @@
 /*Start global*/
 
-@font-face{
-    src: url(../assets/fonts/cityburn.ttf);
-    font-family: 'cityburn', 'Courier New', Courier, monospace;
-}
-@font-face{
-    src: url(../assets/fonts/Copystruct-Normal.ttf);
-    font-family: 'Copystruct-Normal', 'Courier New', Courier, monospace;
-}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 *{
     margin: 0;
@@ -27,7 +20,7 @@ body{
     height: 100%;
     background-color: #232323;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); no-repeat center fixed;
-    font-family: 'copy';
+    font-family: 'Orbitron', sans-serif;
 }
 
 section {
@@ -43,13 +36,18 @@ p{
     font-size: 1.8rem;
     font-weight: 300;
     color: #C3BABA;
-    font-family: 'Copystruct-Normal';
+    font-family: 'Orbitron', sans-serif;
 }
 
 img{
     width: 100%;
 }
 
+
+::selection {
+    background-color: #00aca3;
+    color: #eee;
+}
 /*End global*/
 
 
@@ -73,16 +71,15 @@ img{
     font-size: 3.5rem;
     color: #C3BABA;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: bold;
     position: relative;
     margin-bottom: 1rem;
-    font-family: 'cityburn';
+    font-family: 'Orbitron', sans-serif;
 }
 
 .section-heading h6 {
     font-size: 1.6rem;
     font-weight: 300;
-    font-family: 'Copystruct-Normal';
 }
 
 .has-margin-right {

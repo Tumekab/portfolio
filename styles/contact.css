@@ -20,6 +20,7 @@ textarea {
     outline-color: #fd57bf;
 }
 input[type=submit] {
+    font-family: 'Orbitron', sans-serif;
     width: initial;
     background-color: #C3BABA;
     color: #211e27;

@@ -32,7 +32,7 @@ li{
 }
 
 .nav-link{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Orbitron', sans-serif;;
     font-size: 5rem;
     padding: 1rem;
 }
@@ -116,7 +116,7 @@ li{
     background: #C3BABA;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'cityburn';
+    font-family: 'Orbitron', sans-serif;
     letter-spacing: 1.5rem;
 }
 .landing-text h6 {

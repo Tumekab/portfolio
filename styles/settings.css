@@ -1,6 +1,10 @@
 /*Start global*/
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+/* last font is to be used to write stay safe  and create with a dropshadow and text outline*/
+/* font-family: 'Contrail One', cursive; */
 
 *{
     margin: 0;
@@ -21,6 +25,7 @@ body{
     background-color: #232323;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); no-repeat center fixed;
     font-family: 'Orbitron', sans-serif;
+    overflow-x: hidden;
 }
 
 section {
@@ -36,13 +41,19 @@ p{
     font-size: 1.8rem;
     font-weight: 300;
     color: #C3BABA;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 img{
-    width: 100%;
+    width: 80%;
+    height: 80%;
 }
 
+
+text {
+    fill:#ff36bf;
+    font-size: 2rem;
+  }
 
 ::selection {
     background-color: #00aca3;

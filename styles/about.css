@@ -27,6 +27,10 @@
     flex: 1;
     margin-right: 5rem;
 }
+.profile-img img {
+    width: 80%;
+    height: 80%;
+}
 
 .about-details {
     flex: 1;

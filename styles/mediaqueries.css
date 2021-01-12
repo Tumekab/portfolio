@@ -97,6 +97,10 @@
     .up {
         right: 2rem;
     }
+
+    .contact {
+        width: 100%;
+    }
 }
 
 /*End media queries*/

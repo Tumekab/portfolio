@@ -17,6 +17,7 @@ html{
     font-size: 10px;
     font-family: 'Courier New', Courier, monospace;
     color: #C3BABA;
+    overflow-x: hidden;
 }
 
 body{

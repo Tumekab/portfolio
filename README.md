@@ -1,5 +1,5 @@
-## Welcome to my Portfolio's README file! 🤩
+## Portfolio! 🤩
 
-Check out my porfotlio [here](https://tumeka.developme.space/)
+Check out my portfolio [here](https://tumeka.developme.space/)
 
 
